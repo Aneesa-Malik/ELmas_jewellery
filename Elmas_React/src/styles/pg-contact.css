@@ -1,0 +1,81 @@
+.pg-contact .contact-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 60px;
+      padding-bottom: 90px;
+    }
+.pg-contact .contact-luxury-box {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      padding: 45px 40px;
+      width: 440px;
+      border-radius: 0px; 
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+      text-align: center;
+    }
+.pg-contact .contact-luxury-box h2 { 
+      font-family: 'Playfair Display', serif;
+      color: var(--dark-charcoal); 
+      font-weight: 700;
+      font-size: 2.2rem;
+      margin-bottom: 5px;
+      letter-spacing: 1px;
+    }
+.pg-contact .info-item-luxury {
+      background: #f8fafc;
+      border-left: 3px solid var(--luxury-gold);
+      padding: 14px 18px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      color: var(--dark-charcoal);
+      font-weight: 500;
+      font-size: 0.92rem;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+.pg-contact .info-item-luxury:hover {
+      transform: translateX(5px);
+      background: #f1f5f9;
+    }
+.pg-contact .info-item-luxury i {
+      color: var(--luxury-gold);
+      font-size: 1.2rem;
+    }
+.pg-contact .form-control-custom {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 0px;
+      background: #ffffff;
+      color: var(--dark-charcoal);
+      outline: none;
+      font-size: 0.9rem;
+      margin-top: 15px;
+      transition: all 0.3s ease;
+    }
+.pg-contact .form-control-custom:focus {
+      border-color: var(--luxury-gold);
+      box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.15);
+    }
+.pg-contact .btn-submit-luxury {
+      width: 100%;
+      padding: 13px;
+      margin-top: 20px;
+      background-color: var(--dark-charcoal);
+      border: 1px solid var(--dark-charcoal);
+      color: #ffffff;
+      border-radius: 0px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 0.85rem;
+      transition: all 0.3s ease;
+    }
+.pg-contact .btn-submit-luxury:hover {
+      background-color: transparent;
+      color: var(--dark-charcoal);
+    }

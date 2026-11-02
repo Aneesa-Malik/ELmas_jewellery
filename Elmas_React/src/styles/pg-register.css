@@ -1,0 +1,92 @@
+.pg-register .register-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 60px;
+      padding-bottom: 90px;
+    }
+.pg-register .register-luxury-box {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      padding: 45px 40px;
+      border-radius: 0px; 
+      width: 420px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    }
+.pg-register .register-luxury-box h2 {
+      font-family: 'Playfair Display', serif;
+      color: var(--dark-charcoal);
+      font-weight: 700;
+      margin-bottom: 5px;
+      letter-spacing: 1px;
+    }
+.pg-register .form-group-custom {
+      margin-bottom: 18px;
+      position: relative;
+    }
+.pg-register .register-luxury-box input {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 0px;
+      background: #ffffff;
+      color: var(--dark-charcoal);
+      outline: none;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+    }
+.pg-register .register-luxury-box input:focus {
+      border-color: var(--luxury-gold);
+      box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.15);
+    }
+.pg-register .error {
+      color: #ef4444;
+      font-size: 0.75rem;
+      text-align: left;
+      margin-top: 4px;
+      margin-bottom: 0;
+      font-weight: 500;
+    }
+.pg-register .counter {
+      font-size: 0.7rem;
+      color: var(--luxury-gold);
+      position: absolute;
+      right: 5px;
+      top: -18px;
+      font-weight: 600;
+    }
+.pg-register .btn-submit-luxury {
+      width: 100%;
+      padding: 13px;
+      margin-top: 10px;
+      background-color: var(--dark-charcoal);
+      border: 1px solid var(--dark-charcoal);
+      color: #ffffff;
+      border-radius: 0px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 0.85rem;
+      transition: all 0.3s ease;
+    }
+.pg-register .btn-submit-luxury:hover {
+      background-color: transparent;
+      color: var(--dark-charcoal);
+    }
+.pg-register .btn-reset-luxury {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background: transparent;
+      color: #64748b;
+      border: 1px solid #cbd5e1;
+      border-radius: 0px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+    }
+.pg-register .btn-reset-luxury:hover {
+      color: var(--dark-charcoal);
+      border-color: var(--dark-charcoal);
+    }

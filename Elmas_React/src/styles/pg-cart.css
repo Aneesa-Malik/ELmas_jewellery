@@ -1,0 +1,18 @@
+.pg-cart h2,
+.pg-cart h5 { font-family: 'Playfair Display', serif; font-weight: 700; }
+.pg-cart .cart-card { background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 0px; margin-top: 30px; margin-bottom: 50px; }
+.pg-cart .table th { font-weight: 600; text-transform: uppercase; font-size: 0.85rem; padding: 18px; background-color: #f8fafc; }
+.pg-cart .table td { padding: 18px; border-bottom: 1px solid #f1f5f9; }
+.pg-cart .btn-continue { color: var(--dark-charcoal); border: 1px solid var(--dark-charcoal); border-radius: 0px; text-transform: uppercase; font-size: 0.85rem; padding: 10px 20px; text-decoration: none; }
+.pg-cart .btn-checkout { background-color: var(--dark-charcoal); color: #ffffff; border-radius: 0px; font-size: 0.85rem; padding: 12px 30px; text-decoration: none; }
+.pg-cart .btn-checkout:hover { color: #fff; background-color: #000; }
+.pg-cart .luxury-greeting-note { font-style: italic; font-family: 'Playfair Display', serif; color: var(--luxury-gold); font-size: 1.1rem; margin-top: 15px; }
+.pg-cart .unlocked-banner {
+            background-color: aliceblue; 
+            border-left: 4px solid var(--premium-blue);
+            color: var(--premium-blue);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+        }

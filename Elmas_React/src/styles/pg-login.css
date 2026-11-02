@@ -1,0 +1,108 @@
+.pg-login .login-container-section {
+        min-height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+.pg-login .login-luxury-box {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        padding: 45px 40px;
+        width: 400px;
+        border-radius: 0px; 
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+        color: var(--dark-charcoal);
+    }
+.pg-login .login-luxury-box h2 {
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 5px;
+        color: var(--dark-charcoal);
+        font-weight: 700;
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+.pg-login .input-group-custom {
+        position: relative;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+.pg-login .login-luxury-box input {
+        width: 100%;
+        padding: 11px 14px;
+        border: 1px solid #cbd5e1;
+        border-radius: 0px;
+        background: #ffffff;
+        color: var(--dark-charcoal);
+        outline: none;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+    }
+.pg-login .login-luxury-box input:focus {
+        border-color: var(--luxury-gold);
+        box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.15);
+    }
+.pg-login .toggle-pass {
+        position: absolute;
+        right: 12px;
+        top: 13px;
+        cursor: pointer;
+        color: var(--luxury-gold);
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        user-select: none;
+    }
+.pg-login .btn-submit-luxury {
+        width: 100%;
+        padding: 13px;
+        background: var(--dark-charcoal);
+        color: #ffffff;
+        border: 1px solid var(--dark-charcoal);
+        border-radius: 0px;
+        cursor: pointer;
+        font-weight: 500;
+        margin-top: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.85rem;
+        transition: all 0.3s ease;
+    }
+.pg-login .btn-submit-luxury:hover { 
+        background: transparent; 
+        color: var(--dark-charcoal); 
+    }
+.pg-login .btn-reset-luxury { 
+        width: 100%;
+        padding: 10px;
+        background: transparent !important; 
+        color: #64748b !important; 
+        border: 1px solid #cbd5e1 !important; 
+        border-radius: 0px !important; 
+        margin-top: 10px !important;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+    }
+.pg-login .btn-reset-luxury:hover {
+        color: var(--dark-charcoal) !important;
+        border-color: var(--dark-charcoal) !important;
+    }
+.pg-login .error { 
+        color: #ef4444; 
+        font-size: 0.75rem; 
+        margin-top: 4px; 
+        display: block; 
+        font-weight: 500;
+    }
+.pg-login .counter { 
+        font-size: 0.7rem; 
+        color: var(--luxury-gold); 
+        text-align: right; 
+        display: block; 
+        margin-top: 3px;
+        font-weight: 600;
+    }

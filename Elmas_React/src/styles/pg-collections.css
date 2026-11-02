@@ -1,0 +1,162 @@
+.pg-collections .page-title-section {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+.pg-collections .page-title-section h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--dark-charcoal);
+      margin-bottom: 10px;
+    }
+.pg-collections .filter-buttons {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+.pg-collections .filter-btn {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      color: var(--dark-charcoal);
+      padding: 10px 24px;
+      margin: 6px;
+      border-radius: 0px; 
+      cursor: pointer;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    }
+.pg-collections .filter-btn:hover,
+.pg-collections .filter-btn.active {
+      background: var(--dark-charcoal);
+      border-color: var(--dark-charcoal);
+      color: #ffffff;
+    }
+.pg-collections #container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+      padding: 10px 20px 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+.pg-collections .item {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      padding: 15px;
+      border-radius: 0px; 
+      width: 220px;
+      text-align: center;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      color: var(--dark-charcoal);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    }
+.pg-collections .item:hover {
+      transform: translateY(-8px);
+      border-color: var(--luxury-gold);
+      box-shadow: 0 15px 30px rgba(197, 160, 89, 0.12);
+    }
+.pg-collections .item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 0px;
+      transition: transform 0.5s ease;
+      cursor: pointer; 
+    }
+.pg-collections .item:hover img {
+      transform: scale(1.02);
+    }
+.pg-collections .item p {
+      margin-top: 15px;
+      margin-bottom: 2px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.5px;
+    }
+.pg-collections .item-subtitle {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: block;
+      margin-bottom: 8px;
+    }
+.pg-collections .item-price-tag {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      color: var(--luxury-gold);
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+.pg-collections .btn-select-item {
+      background-color: var(--dark-charcoal);
+      color: #ffffff;
+      border: 1px solid var(--dark-charcoal);
+      border-radius: 0px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding: 8px 15px;
+      width: 100%;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+.pg-collections .btn-select-item:hover {
+      background-color: transparent;
+      color: var(--dark-charcoal);
+    }
+.pg-collections .elmas-modal {
+      display: none;
+      position: fixed;
+      z-index: 2000;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(15, 23, 42, 0.85); 
+      backdrop-filter: blur(4px);
+      justify-content: center;
+      align-items: center;
+    }
+.pg-collections .elmas-modal-content {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 0px;
+      max-width: 450px;
+      text-align: center;
+      color: var(--dark-charcoal);
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      position: relative;
+    }
+.pg-collections .elmas-modal-content img { 
+      width: 100%; 
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 0px; 
+    }
+.pg-collections .elmas-modal-content p {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-top: 15px;
+      margin-bottom: 0;
+    }
+.pg-collections .close { 
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 28px; 
+      cursor: pointer; 
+      color: #94a3b8; 
+      transition: color 0.2s ease;
+    }
+.pg-collections .close:hover {
+      color: var(--dark-charcoal);
+    }

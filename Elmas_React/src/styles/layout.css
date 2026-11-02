@@ -1,0 +1,154 @@
+
+        :root {
+            --luxury-gold: #c5a059;      
+            --dark-charcoal: #1e293b;    
+            --light-bg: #fcfbf7;         
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--light-bg);
+            color: var(--dark-charcoal);
+        }
+
+        h1, h2, h3, h4, .navbar-brand {
+            font-family: 'Playfair Display', serif;
+        }
+
+        
+        .top-bar {
+            background-color: #111827;
+            color: #f3f4f6;
+            font-size: 0.75rem;
+            letter-spacing: 1.5px;
+            padding: 6px 0;
+        }
+
+        
+        .navbar {
+            background-color: #ffffff !important;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 15px 0;
+        }
+
+        .navbar-brand {
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--dark-charcoal) !important;
+        }
+
+        .navbar-brand span {
+            color: var(--luxury-gold);
+        }
+
+        .nav-link {
+            color: var(--dark-charcoal) !important;
+            font-weight: 500;
+            font-size: 0.9rem;
+            text-uppercase: uppercase;
+            letter-spacing: 1px;
+            padding: 8px 16px !important;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--luxury-gold) !important;
+        }
+
+        
+        .nav-item.active .nav-link {
+            color: var(--luxury-gold) !important;
+            border-bottom: 2px solid var(--luxury-gold);
+        }
+
+        
+        .cart-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .cart-icon {
+            font-size: 1.3rem;
+            color: var(--dark-charcoal);
+            transition: color 0.3s ease;
+        }
+
+        .cart-icon:hover {
+            color: var(--luxury-gold);
+        }
+
+        .cart-badge {
+            position: absolute;
+            top: -5px;
+            right: -10px;
+            background-color: var(--luxury-gold);
+            color: white;
+            font-size: 0.65rem;
+            padding: 3px 6px;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+
+        
+        .search-box {
+            border: 1px solid #cbd5e1;
+            border-radius: 20px;
+            padding: 5px 15px;
+            font-size: 0.85rem;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .search-box:focus {
+            border-color: var(--luxury-gold);
+            box-shadow: 0 0 0 2px rgba(197, 160, 89, 0.2);
+        }
+    
+/* ---------- Added for the React version ---------- */
+body {
+  margin: 0;
+}
+
+/* Active page indicator (NavLink puts "active" on the link itself) */
+.nav-link.active {
+  color: var(--luxury-gold) !important;
+  border-bottom: 2px solid var(--luxury-gold);
+}
+
+.cart-container,
+.cart-container:hover {
+  text-decoration: none;
+}
+
+/* Animated photo background used on most pages */
+body.slideshow {
+  animation: bgChange 20s infinite alternate;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@keyframes bgChange {
+  0%   { background-image: linear-gradient(rgba(252, 251, 247, 0.5), rgba(252, 251, 247, 0.5)), url("/picss/picss.jpg"); }
+  33%  { background-image: linear-gradient(rgba(252, 251, 247, 0.5), rgba(252, 251, 247, 0.5)), url("/picss/anisa.jpg"); }
+  66%  { background-image: linear-gradient(rgba(252, 251, 247, 0.5), rgba(252, 251, 247, 0.5)), url("/picss/picking.jpg"); }
+  100% { background-image: linear-gradient(rgba(252, 251, 247, 0.5), rgba(252, 251, 247, 0.5)), url("/picss/malik.jpg"); }
+}
+
+/* Footer (inline styles of footer.php moved here) */
+.site-footer {
+  background-color: #ffffff;
+  border-top: 2px solid #e2e8f0;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-brand { color: #1e293b; font-family: 'Playfair Display', serif; letter-spacing: 2px; }
+.footer-heading { color: #1e293b; letter-spacing: 1px; font-size: 0.95rem; }
+.footer-text { color: #64748b !important; }
+.footer-link { color: #64748b; }
+.footer-link:hover { color: var(--luxury-gold); }
+.footer-icon { color: #c5a059; font-size: 1.2rem; }
+.footer-icon-sm { color: #c5a059 !important; }
+.footer-clock { color: #475569 !important; border-color: #f1f5f9 !important; font-weight: 500; }
+.footer-hr { background-color: #e2e8f0; opacity: 0.6; }
+.footer-copy { color: #94a3b8; font-size: 0.7rem; letter-spacing: 1px; }

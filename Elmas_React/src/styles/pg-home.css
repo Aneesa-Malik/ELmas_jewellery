@@ -1,0 +1,89 @@
+.pg-home .hero {
+      height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+      animation: fadeIn 1.5s ease-in;
+    }
+@keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+.pg-home .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 4.5rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: var(--dark-charcoal);
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 4px rgba(255,255,255,0.8);
+    }
+.pg-home .hero p {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-style: italic;
+      margin-bottom: 35px;
+      color: #475569;
+    }
+.pg-home .btn-luxury {
+      padding: 14px 45px;
+      background-color: var(--dark-charcoal);
+      color: #ffffff;
+      border: 1px solid var(--dark-charcoal);
+      border-radius: 0px; 
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.4s ease;
+      text-decoration: none;
+    }
+.pg-home .btn-luxury:hover {
+      background-color: transparent;
+      color: var(--dark-charcoal);
+      border-color: var(--dark-charcoal);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    }
+.pg-home .features-section {
+      padding: 80px 0;
+      background-color: #ffffff;
+      border-top: 1px solid #e2e8f0;
+    }
+.pg-home .feature-card {
+      background: #ffffff;
+      border: 1px solid #f1f5f9;
+      padding: 40px 30px;
+      border-radius: 0px; 
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+.pg-home .feature-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--luxury-gold);
+      box-shadow: 0 15px 30px rgba(197, 160, 89, 0.1);
+    }
+.pg-home .feature-card-icon {
+      font-size: 2rem;
+      color: var(--luxury-gold);
+      margin-bottom: 20px;
+    }
+.pg-home .feature-card h3 {
+      font-family: 'Playfair Display', serif;
+      color: var(--dark-charcoal);
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+.pg-home .feature-card p {
+      font-size: 0.9rem;
+      color: #64748b;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }

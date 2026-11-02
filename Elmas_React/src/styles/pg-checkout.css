@@ -1,0 +1,10 @@
+.pg-checkout h2,
+.pg-checkout h4,
+.pg-checkout h5 { font-family: 'Playfair Display', serif; font-weight: 700; }
+.pg-checkout .checkout-box { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 0px; box-shadow: 0 4px 20px rgba(0,0,0,0.02); }
+.pg-checkout .form-control { border-radius: 0px; border: 1px solid #cbd5e1; padding: 12px; font-size: 0.95rem; }
+.pg-checkout .form-control:focus { border-color: var(--luxury-gold); box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.15); }
+.pg-checkout .btn-order { background-color: var(--dark-charcoal); color: #ffffff; border: 1px solid var(--dark-charcoal); border-radius: 0px; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; font-weight: 500; padding: 14px; width: 100%; transition: all 0.3s ease; }
+.pg-checkout .btn-order:hover { background-color: transparent; color: var(--dark-charcoal); }
+.pg-checkout .summary-item { border-bottom: 1px dashed #e2e8f0; padding-bottom: 10px; margin-bottom: 10px; font-size: 0.9rem; }
+.pg-checkout .success-card { max-width: 500px; margin: 80px auto; background: #ffffff; border: 1px solid #e2e8f0; text-align: center; padding: 40px; }
